@@ -1,13 +1,148 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 전체 컨테이너 */
+.Main-Container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: linear-gradient(135deg, #f9fafc 60%, #e3f0ff 100%);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(60, 90, 180, 0.12);
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 타이틀 */
+.Title-Containr {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2e4a62;
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 8px #dbeafe;
+}
+
+/* 연락처, 메일 컨테이너 공통 */
+.Phone-Container,
+.Mail-Container,
+.Server-Container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
+.Server-ContainerA{
+  display:none;
+}
+.Server-Container:hover  .Server-ContainerA{
+  display:flex;
+}
+
+.Phone-Container img,
+.Mail-Container img,
+.Server-Container img {
+  width: 28px;
+  height: 28px;
+  filter: drop-shadow(0 2px 8px #b6d0ff);
+}
+
+/* 워크스페이스 전체 */
+.WorkSpace-Container {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+/* 프로젝트 카드 */
+.ProjectNum1 {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(70, 130, 180, 0.13);
+  padding: 28px 22px;
+  width: 340px;
+  transition: transform 0.18s, box-shadow 0.18s;
+  position: relative;
+}
+
+.ProjectNum1:hover {
+  transform: translateY(-8px) scale(1.025);
+  box-shadow: 0 12px 32px rgba(70, 130, 180, 0.22);
+}
+
+/* 프로젝트 썸네일 */
+.ProjectIMG {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 12px #e0e7ff;
+}
+
+/* 프로젝트 제목 */
+.ProjectTT {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #3e5c7d;
+  margin-bottom: 6px;
+}
+
+/* 프로젝트 기간 */
+.ProjectDT {
+  font-size: 0.95rem;
+  color: #7a8ca4;
+  margin-bottom: 10px;
+}
+
+/* 프로젝트 링크 */
+.ProjectLNK a {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 2px;
+  color: #4a90e2;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1.5px solid #b6d0ff;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.ProjectLNK a:hover {
+  color: #1e4fa2;
+  border-bottom: 2px solid #1e4fa2;
+}
+
+/* 팀 정보 */
+.ProjectTM {
+  background: #e6f7ff;
+  color: #2176ae;
+  font-size: 0.98rem;
+  border-radius: 8px;
+  padding: 4px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* 프로젝트 설명 */
+.ProjectCM {
+  color: #38485a;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-top: 8px;
+  word-break: keep-all;
+}
+
+/* 반응형 */
+@media (max-width: 600px) {
+  .Main-Container {
+    padding: 14px 4px;
+  }
+  .ProjectNum1 {
+    width: 100%;
+    padding: 18px 8px;
+  }
+  .Title-Containr {
+    font-size: 2rem;
+  }
 }
