@@ -69,7 +69,7 @@ function App() {
           </div>
           <div className="ProjectLNK">
             <a href="http://dvhafly87.kmgproj.p-e.kr:8887">링크</a><br/>
-             <a href="">개발문서</a>
+             <a className="DeveloperDoc" href="">개발문서</a>
           </div>
           <div className="ProjectTM">
             개인 프로젝트
@@ -89,7 +89,7 @@ function App() {
           </div>
           <div className="ProjectLNK">
             <a href="https://dvhafly87.github.io/folio">링크</a><br/>
-             <a href="">개발문서</a>
+             <a className="DeveloperDoc" href="">개발문서</a>
           </div>
           <div className="ProjectTM">
             개인 프로젝트
@@ -109,7 +109,7 @@ function App() {
           </div>
           <div className="ProjectLNK">
             <a href="http://dvhafly87.kmgproj.p-e.kr:3400">링크</a><br/>
-             <a href="" disable>개발문서</a>
+             <a className="DeveloperDoc" href="" disable>개발문서</a>
           </div>
           <div className="ProjectTM">
             개인 프로젝트
