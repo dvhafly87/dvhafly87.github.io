@@ -48,8 +48,8 @@ function App() {
             2025.01 - 2025.03
           </div>
           <div className="ProjectLNK">
-            <a href="https://www.notion.so/UNGUNG-181fce5118d380688db9eebc7bcd8072">Notion</a><br/>
-            <a href="https://github.com/hojunhojun/Soldesk_FinalProject" >Repository</a>
+            <a className="ProjectLNKa" href="https://www.notion.so/UNGUNG-181fce5118d380688db9eebc7bcd8072">Notion</a><br/>
+            <a className="ProjectLNKa" href="https://github.com/hojunhojun/Soldesk_FinalProject" >Repository</a>
           </div>
           <div className="ProjectTM">
             4인 팀 프로젝트
@@ -59,16 +59,16 @@ function App() {
           </div>
         </div>
 
-        <div className="ProjectNum1">
+        <div className="ProjectNum1" >
           <img className="ProjectIMG" src={RTY2} alt="RTY"/>
           <div className="ProjectTT">
-            Recipe to YouV2
+            Recipe to YouV2 <img src={SH} alt="server"/>
           </div>
           <div className="ProjectDT">
             2025.04 - 
           </div>
           <div className="ProjectLNK">
-            <a href="http://dvhafly87.kmgproj.p-e.kr:8887">링크</a><br/>
+            <a className="ProjectLNKa" href="http://dvhafly87.kmgproj.p-e.kr:8887">링크</a><br/>
              <a className="DeveloperDoc" href="">개발문서</a>
           </div>
           <div className="ProjectTM">
@@ -88,7 +88,7 @@ function App() {
             2024.11.03 - 2024.11.05
           </div>
           <div className="ProjectLNK">
-            <a href="https://dvhafly87.github.io/folio">링크</a><br/>
+            <a className="ProjectLNKa" href="https://dvhafly87.github.io/folio">링크</a><br/>
              <a className="DeveloperDoc" href="">개발문서</a>
           </div>
           <div className="ProjectTM">
@@ -102,13 +102,13 @@ function App() {
          <div className="ProjectNum1">
           <img className="ProjectIMG" src={DH} alt="RTY"/>
           <div className="ProjectTT">
-            DailyHumor
+            DailyHumor <img src={SH} alt="server"/>
           </div>
           <div className="ProjectDT">
             2024.10.20
           </div>
           <div className="ProjectLNK">
-            <a href="http://dvhafly87.kmgproj.p-e.kr:3400">링크</a><br/>
+            <a className="ProjectLNKa" href="http://dvhafly87.kmgproj.p-e.kr:3400">링크</a><br/>
              <a className="DeveloperDoc" href="" disable>개발문서</a>
           </div>
           <div className="ProjectTM">

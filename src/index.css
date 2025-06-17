@@ -39,7 +39,8 @@
 
 .Phone-Container img,
 .Mail-Container img,
-.Server-Container img {
+.Server-Container img,
+.ProjectTT img {
   width: 28px;
   height: 28px;
   filter: drop-shadow(0 2px 8px #b6d0ff);
@@ -96,7 +97,7 @@
 }
 
 /* 프로젝트 링크 */
-.ProjectLNK a {
+.ProjectLNKa {
   display: inline-block;
   margin-right: 12px;
   margin-bottom: 2px;
@@ -107,9 +108,19 @@
   transition: color 0.15s, border-color 0.15s;
 }
 
-.ProjectLNK a:hover {
+.ProjectLNKa:hover {
   color: #1e4fa2;
   border-bottom: 2px solid #1e4fa2;
+}
+
+.DeveloperDoc {
+  color: #B22222; /* 텍스트 색상 */
+  border-bottom: #B22222; /* 밑줄 색상 */
+}
+
+.DeveloperDoc:hover {
+  color: #8B1A1A; /* hover 시 더 진한 firebrick 느낌 */
+  border-bottom: #8B1A1A; /* hover 시 밑줄도 함께 변경 */
 }
 
 /* 팀 정보 */
