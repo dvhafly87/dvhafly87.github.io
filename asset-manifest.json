@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.93e0f515.css",
-    "main.js": "/static/js/main.0f850a60.js",
+    "main.css": "/static/css/main.73b11985.css",
+    "main.js": "/static/js/main.352f4b99.js",
     "static/js/453.0cc7831c.chunk.js": "/static/js/453.0cc7831c.chunk.js",
     "static/media/RTY2.jpeg": "/static/media/RTY2.f4551dd5c5eff0581b9b.jpeg",
     "static/media/DailyHumor.png": "/static/media/DailyHumor.8c2f52dd40985f72acd8.png",
@@ -11,12 +11,12 @@
     "static/media/Mail.png": "/static/media/Mail.46cdbe9bf1456a37e28d.png",
     "static/media/server.png": "/static/media/server.5147e9fb233b94bb93f6.png",
     "index.html": "/index.html",
-    "main.93e0f515.css.map": "/static/css/main.93e0f515.css.map",
-    "main.0f850a60.js.map": "/static/js/main.0f850a60.js.map",
+    "main.73b11985.css.map": "/static/css/main.73b11985.css.map",
+    "main.352f4b99.js.map": "/static/js/main.352f4b99.js.map",
     "453.0cc7831c.chunk.js.map": "/static/js/453.0cc7831c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93e0f515.css",
-    "static/js/main.0f850a60.js"
+    "static/css/main.73b11985.css",
+    "static/js/main.352f4b99.js"
   ]
 }
